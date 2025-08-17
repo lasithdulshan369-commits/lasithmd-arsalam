@@ -4,7 +4,7 @@ const config = require('../config');
 cmd({
     pattern: "owner",
     react: "✅", 
-    desc: "Get owner number",
+    desc: "94774367639",
     category: "main",
     filename: __filename
 }, 
@@ -29,23 +29,23 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/yj7zp0.png' }, // Image URL from your request
-            caption: `╭━━〔 *𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃* 〕━━┈⊷
+            image: { url: 'https://files.catbox.moe/5x29np.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *LASITH-MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
-┃◈┃• *Name* - ${ownerName}
-┃◈┃• *Number* ${ownerNumber}
+┃◈┃• *Name* - ${LASITH DULSHAN}
+┃◈┃• *Number* ${94774367639}
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 ❣️*`, // Display the owner's details
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ LASITH-MD ❣️*`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: '*𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃*',
+                    newsletterName: '*LASITH-MD*',
                     serverMessageId: 143
                 }            
             }
