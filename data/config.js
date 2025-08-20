@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "ARSLAN-MD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMExvb29nY0tGRExrU3NQK2xESTJIVlFkZ2ZMYUp6VlRhb3hXMGJRNFUwVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVXpzWWsxMC9WdlppNmRJM28wRW5mWnptYnZZRmNRcUw5QWU5QXJRTzFHND0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJLS1dqaXNVK3JKWXdXU2MzTjJwMmNhWXBNdkFvcXU5bFhWcVViNUxlbWtZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJEQTYvTHVJTGpPRFB2Ui9rQTlJNEIwWmp6WHRvYlJkZk96bDBJVXNpSURnPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IktQZEN5RkszVE5BWWF1WHIzbUg0WVd6amo2V3lzaVlWK3ExUEN6V3M5MUE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjNxZFdYSXdaRGtOVkszRFJTdUs3YUtVUWp6WlBlT2VDR1g2RlBSUjNGMlU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUUF3R0JIdVBvYXAra2xQUEVOK0lVa1NxbHBTQjZEM1UyYnYrZVRkbG1HND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVHhGVjNZTmN4dTBnUWRZQ29pQUVRclJ3YjVLaitxbDRZTW1TNGZRTjYzZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFtK1psWjA2WEJ3S0tBeTU3Y3FiTFJCU3k4SXUwTUI1bFBtd0ZXS0ZGQml6VURTQWtIaVU1NzlGVHpGVHhkTldCV3Mybk1FclVNbHZvaU1MSTNkQ2dRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjM1LCJhZHZTZWNyZXRLZXkiOiJyeUM1a2ZVb2toWTF5UEtiUC9hbDFkcUdldUQrdkF3Y1ZCOGl2WXBtZnkwPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiJTN1Y1WkU2NyIsIm1lIjp7ImlkIjoiOTQ3NjYwNTA1Mjg6MjRAcy53aGF0c2FwcC5uZXQiLCJsaWQiOiI1NTQ3MDEyMzQyOTk1NToyNEBsaWQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0ttTHcrY0ZFS3FHbDhVR0dCb2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkkyQm9OUjF3cHJWc3VxekpORmxXTTJobmt6VTBCOGx2aWVOVHYxZU1weFk9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImRkcXpsdEJjOERsVklhNm1SVU8vODJNQm1YTUhaSHNaQStaanAyVCtXaHBvMHU4NmZLVEYxdWVIcEM2K0hGWVFYY0VKMG5IRlpYRTdWaUhkU29MUURnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJjbzVyWlNPeFU1ZHdLbU9JN2RqUmY0UnIvbTZ2WTVldkpjRjR6MG9TbnBuRVZjSVIrdVB3Ynh1QXdqUGxsSVVTK1BTcEhOZzZWRkl5NStJWjlCcWxqUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6Ijk0NzY2MDUwNTI4OjI0QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlNOZ2FEVWRjS2ExYkxxc3lUUlpWak5vWjVNMU5BZkpiNG5qVTc5WGpLY1cifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNCSUlEUT09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc1NTY5Mzg2OSwibGFzdFByb3BIYXNoIjoiM1I5WjM5IiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFEVU4ifQ==",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY Your-Own-Bot 🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY Your-LASITH-MD 🤍*",
 // set the auto reply massage on status reply  
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete     
@@ -31,9 +31,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/qpnazl.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "Your-Own-Bot",
+BOT_NAME: process.env.BOT_NAME || "LASITH-MD-Bot",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "Your-Own-Bot",
+STICKER_NAME: process.env.STICKER_NAME || "LASITH-MD",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -41,15 +41,15 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923237045910",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94774367649",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "*ArslanMD Official*",
+OWNER_NAME: process.env.OWNER_NAME || "*LASITHMD Official*",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ArslanMD Official ❣️*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ LASITH-MD Official ❣️*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/qpnazl.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/5x29np.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar ⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> HI HI BRO ⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
